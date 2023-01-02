@@ -1,0 +1,373 @@
+:root {
+    --lightcoral: lightcoral;
+}
+* {
+   box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  display: grid;
+  flex-wrap: wrap;
+}
+
+.Home {
+  background-image: url("/images/background.png");
+  background-size: 100% 772px;
+  background-repeat: no-repeat;
+  height: 750px;
+  width: 99.89%;
+  position: absolute;
+}
+
+#menu {
+  float: right;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  height: 45px;
+  width: 50px;
+}
+
+.first-inner {
+  display: inline-block;
+  position: relative;
+  left: 150px;
+}
+
+#logo {
+  position: relative;
+  top: 10px;
+  height: 80px;
+  width: 115px;
+}
+
+.sec-inner {
+  position: relative;
+  top: 150px;
+}
+
+.p-btn {
+  border: 3px solid var(--lightcoral);
+  display: inline-block;
+  padding: 10px 15px;
+  margin-top: 0px 1px;
+}
+
+.para1 {
+  background-color: var(--lightcoral);
+  display: inline-block;
+  padding: 8px;
+  margin-top: 0px;
+}
+
+.line-container {
+  margin-top: 30px;
+  position: relative;
+}
+
+.line1 {
+  background-color: var(--lightcoral);
+  display: inline-block;
+  padding: 1.5px;
+  position: relative;
+  top: -25px;
+  width: 70px;
+}
+
+.line2 {
+  background-color: var(--lightcoral);
+  display: inline-block;
+  padding: 1.5px;
+  position: relative;
+  top: -50px;
+  width: 50px;
+}
+
+.about-us {
+  background-image: url("/images/about.png");
+  background-size: 50% 600px;
+  background-position: 0px 30px;
+  background-repeat: no-repeat;
+  float: right;
+  height: 750px;
+  width: 99.89%;
+  position: relative;
+  top: 751px;
+}
+
+.second-container {
+  display: inline-block;
+  position: relative;
+  float: right;
+  top: 60px;
+  right: 150px;
+}
+
+.h1 {
+  position: relative;
+  display: inline-block;
+  left: 237px;
+  top: 0;
+}
+
+.para2 {
+  background-color: var(--lightcoral);
+  display: inline-block;
+  position: relative;
+  padding: 8px;
+  left: 216px;
+  top: 60px;
+}
+
+p.ex1 {
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+  text-align: right;
+  color: grey;
+}
+
+.line2-container {
+  margin-top: 40px;
+  position: relative;
+  display: inline-block;
+  float: right;
+  top: 300px;
+  right: -220px;
+  text-align: right;
+
+}
+
+#heading3 {
+  position: relative;
+  display: inline-block;
+  top: -40px;
+  text-align: right;
+
+}
+
+#blur {
+  color: grey;
+}
+
+.flex-container {
+  position: relative;
+  display: flex;
+  top: 750px;
+  justify-content: center;
+}
+
+.flex1 {
+  padding: 0px 70px;
+}
+
+
+.img-icon {
+  position: relative;
+  height: 150px;
+  width: 160px;
+}
+
+.text-cent {
+  position: relative;
+  left: -60px;
+  text-align: center;
+}
+
+.heading2 {
+  margin: 0;
+}
+
+.line-container-2 {
+  position: relative;
+  display: inline-block;
+  text-align: right;
+  top: 30px;
+  left: -45px;
+}
+
+.p-btn-2 {
+  border: 3px solid var(--lightcoral);
+  display: inline-block;
+  padding: 10px 15px;
+  position: relative;
+  top: -53px;
+  left: -25px;
+  font-size: 18px;
+}
+
+.courses {
+  background-image: url("/images/course.png");
+  background-size: 44% 400px;
+  background-repeat: no-repeat;
+  background-position: 85% 45%;
+  top: 750px;
+  height: 750px;
+  position: relative;
+}
+
+.limitless {
+  background-image: url("/images/offer.png");
+  background-size: 50% 600px;
+  background-position: 0px 30px;
+  background-repeat: no-repeat;
+  float: right;
+  height: 625px;
+  width: 99.89%;
+  position: relative;
+  top: 751px;
+}
+
+.h1-2 {
+  position: relative;
+  display: inline-block;
+  right: -1076px;
+  top: 110px;
+  text-align: right;
+}
+
+.para3 {
+  background-color: var(--lightcoral);
+  display: inline-block;
+  position: relative;
+  padding: 8px;
+  right: -1055px;
+  top: 170px;
+}
+
+p.ex2 {
+  font-size: 20px;
+  position: relative;
+  top: 130px;
+  right: 150px;
+  text-align: right;
+  color: grey;
+}
+
+.p-btn-3 {
+  border: 3px solid var(--lightcoral);
+  display: inline-block;
+  padding: 10px 15px;
+  position: relative;
+  right: -1179px;
+  top: 120px;
+  font-size: 18px;
+}
+
+.line2-container-2 {
+  margin-top: 40px;
+  position: relative;
+  display: inline-block;
+  top: 110px;
+  right: -1294px;
+  text-align: right;
+}
+
+.form {
+  background-image: url("/images/contact.png");
+  background-size: 44% 500px;
+  background-repeat: no-repeat;
+  background-position: 85% 45%;
+  top: 750px;
+  height: 690px;
+  position: relative;
+}
+
+input[type=text] {
+  border: 3px solid #FF9494;
+  padding: 8px 20px;
+  margin-bottom: 4px;
+  background-color: none;
+}
+
+#btn-1 {
+  border: 3px solid #FF9494;
+  padding: 10px 14px;
+  margin-bottom: 4px;
+  background-color: transparent;
+}
+
+#btn-2 {
+  border: 3px solid #FF9494;
+  padding: 10px 14px;
+  margin-bottom: 4px;
+  margin-left: 3px;
+  background-color: transparent;
+}
+
+.flex-container-2 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  top: 280px;
+  height: 180px;
+  justify-content: center;
+}
+
+.flex-container-3 {
+  position: relative;
+  display: flex;
+  top: 20px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.flex2 {
+  padding: 0px 60px;
+  justify-content: center;
+}
+
+.flex3 {
+  position: relative;
+  top: 60px;
+  font-size: 12px;
+  line-height: 2px;
+
+}
+
+p#p1 {
+  position: relative;
+  right: 15px;
+}
+
+.flex4 {
+  position: relative;
+  padding-left: 50px;
+}
+
+#logo1 {
+  position: relative;
+  height: 60px;
+  width: 80px;
+  top: 20px;
+}
+
+div.btn1 {
+  position: relative;
+  top: 10px;
+}
+
+a:link {
+  color: var(--lightcoral);
+  text-decoration: none;
+}
+
+a:visited {
+  color: #FFE3E1;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #CD104D;
+}
+
+a:active {
+  text-decoration: underline;
+  color: #6F38C5;
+}
